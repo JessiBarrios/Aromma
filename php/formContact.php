@@ -41,7 +41,7 @@
                 $mensaje = $_POST['areaMessage'];
                 $mensaje = filter_var($mensaje, FILTER_SANITIZE_STRING);
                 
-                $secret_key = "6LfHiHceAAAAAOhsIj3j_wLeIzJsY9anwvxvpB1m";
+                $secret_key = "";
                 
                 $response = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret_key.'&response='.$_POST['g-recaptcha-response']);
     
@@ -67,12 +67,12 @@
                     // Servidor SMTP
                     $mail->Host  = 'mail.repcom.com.mx';
                     // Usuario SMTP
-                    $mail->Username  = 'leads@repcom.com.mx';
+                    $mail->Username  = '';
                     // Contraseña SMTP
-                    $mail->Password  = 'Repcom2022';
+                    $mail->Password  = '';
         
                     //Indicamos cual es nuestra dirección de correo y el nombre que queremos que vea el usuario que lee nuestro correo
-                    $mail->From = "md@repcom.com.mx";
+                    $mail->From = "";
                     $mail->FromName = "Aromma Services";
         
                     // tls ir for Gmail and ssl is for hosting
@@ -85,9 +85,9 @@
         
                     // Destinatarios
                     // Destinatario directo
-                    $mail->addAddress('md@aromma.mx', 'Victor Avendaño');
-                    $mail->addAddress('mkt@aromma.mx', 'Marketing Digital');
-                    $mail->addAddress('ventas@aromma.mx', 'Jaime Martinez');
+                    $mail->addAddress('', '');
+                    $mail->addAddress('', '');
+                    $mail->addAddress('', '');
                     // Destinatario copia
                     //$mail->addCC('copiado@hotmail.com', '');
         
