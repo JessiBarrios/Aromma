@@ -1,0 +1,417 @@
+/* - TEXTO - */
+
+/* Tipografía */
+.font-montserrat{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Size */
+.font-1{
+    font-size: 1.1rem;
+}
+
+/* Espaciado de letras */
+.letter-spacing-3{
+    letter-spacing: 3px;
+}
+
+/* Grosor */
+.h5{
+    font-weight: 600 !important;
+}
+
+/* Colores de texto */
+.text-blue{
+    color: #00c0cc !important;
+}
+.text-green{
+    color: #ddff98 !important;
+}
+.text-deep-green{
+    color: #a6d646 !important;
+}
+
+/* - PUNTERO - */
+.cursor-pointer{
+    cursor: pointer;
+}
+
+/* SOMBRAS */
+.shadow{
+    box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+}
+
+/* - FONDOS - */
+
+/* Colores de fondo */
+.bg-blue{
+    background-color: #00c0cc;
+}
+.bg-gray{
+    background-color: #f5f6f6;
+}
+.bg-deep-gray{
+    background-color: #3d3d3d;
+}
+.bg-blue-white{
+    background: linear-gradient(180deg, #00c0cc 50%, #ffffff 50%);
+}
+.bg-white-transparent{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 20%, rgba(255,255,255,0) 80%);
+}
+.bg-img-header1{
+    background-image: url(https://contacto.aromma.mx/img/header1.webp);
+}
+.bg-img-header2{
+    background-image: url(https://contacto.aromma.mx/img/header2.webp);
+}
+.bg-img-header3{
+    background-image: url(https://contacto.aromma.mx/img/header3.webp);
+}
+.bg-img-header1,
+.bg-img-header2,
+.bg-img-header3{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: inherit;
+}
+.bg-img-iconos{
+    background-image: url(https://contacto.aromma.mx/img/aromma-iconos.webp);
+}
+.bg-img-fragancias{
+    background-image: url(https://contacto.aromma.mx/img/aromma-fragancias.webp);
+}
+.bg-img-form{
+    background-image: url(https://contacto.aromma.mx/img/aromma-formulario.webp);
+}
+
+/* POSICIONES */
+.z-index-10{
+    z-index: 10;
+}
+.t-3{
+    top: 3rem;
+}
+.position-icono1{
+    background-position: -10px -10px;
+}
+.position-icono2{
+    background-position: -58px -18px;
+}
+.position-icono3{
+    background-position: -674px -19px;
+}
+.position-sello{
+    background-position: -85px -10px;
+}
+.position-experiencias{
+    background-position: -147px -10px;
+}
+.position-ventas{
+    background-position: -211px -10px;
+}
+.position-productividad{
+    background-position: -274px -10px;
+}
+.position-sesoria{
+    background-position: -621px -15px;
+}
+.position-perfil{
+    background-position: -506px -15px;
+}
+.position-fragancias{
+    background-position: -393px -15px;
+}
+.position-difusores{
+    background-position: -566px -15px;
+}
+.position-estudio{
+    background-position: -446px -15px;
+}
+.position-instalacion{
+    background-position: -341px -15px;
+}
+.position-hoja{
+    background-position: -10px -9px;
+}
+.position-taza{
+    background-position: -174px -9px;
+}
+.position-mandarina{
+    background-position: -339px -9px;
+}
+.position-toronja{
+    background-position: -504px -9px;
+}
+.position-flores{
+    background-position: -670px -9px;
+}
+.position-agua{
+    background-position: -834px -9px;
+}
+.position-ifra{
+    background-position: -998px -30px;
+}
+.position-review1{
+    background-position: -1203px -9px;
+}
+.position-review2{
+    background-position: -1333px -9px;
+}
+.position-review3{
+    background-position: -1463px -9px;
+}
+.position-frase1{
+    background-position: -981px -23px;
+}
+.position-frase2{
+    background-position: -1027px -23px;
+}
+.position-frase3{
+    background-position: -1071px -23px;
+}
+.position-whatsapp{
+    background-position: -712px -15px;
+}
+.position-tel{
+    background-position: -772px -15px;
+}
+.position-facebook{
+    background-position: -832px -20px;
+}
+.position-instagram{
+    background-position: -882px -20px;
+}
+.position-in{
+    background-position: -932px -20px;
+}
+
+/* TAMAÑAOS */
+
+/* Ancho */
+.w-30{
+    width: 30px;
+}
+.w-36{
+    width: 36px;
+}
+.w-40{
+    width: 40px;
+}
+.w-50-{
+    width: 50px;
+}
+.w-60{
+    width: 60px;
+}
+.w-80{
+    width: 80px;
+}
+.w-122{
+    width: 122px;
+}
+.w-157{
+    width: 157px;
+}
+.w-200{
+    width: 200px;
+}
+.w-260{
+    width: 260px;
+}
+/* Largo */
+.h-650{
+    height: 650px;
+}
+.h-inherit{
+    height: inherit;
+}
+.h-10 {
+    height: 10rem;
+}
+.h-36{
+    height: 36px;
+}
+.h-40{
+    height: 40px;
+}
+.h-50-{
+    height: 50px;
+}
+.h-60{
+    height: 60px;
+}
+.h-80{
+    height: 80px;
+}
+.h-125{
+    height: 125px;
+}
+.h-152{
+    height: 152px;
+}
+.h-157{
+    height: 157px;
+}
+.h-116{
+    height: 116px;
+}
+.h-33{
+    height: 33px;
+}
+
+/* - ELEMENTOS - */
+body{
+    font-family: 'DM Sans', sans-serif;
+    min-width: 320px;
+    color: #3d3d3d;
+}
+.rounded-circle,
+#tarjetas .card {
+    border-radius: 15px !important;
+}
+dt{
+    font-weight: 600 !important;
+}
+hr{
+    transform: rotate(270deg);
+    height: 1px;
+    width: 100px;
+}
+#contactos .btn-link{
+    text-decoration: none;
+}
+.rounded-circle{
+    border-radius: 40px !important;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+#review .carousel-control-prev,
+#review .carousel-control-next{
+    width: 20px;
+}
+
+/* FOCUS */
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(255, 255, 255, 0.25);
+}
+
+/* HOVER */
+/* Decoración de texto */
+a:hover {
+    text-decoration: none !important;
+}
+.shadow:hover{
+    box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 30%);
+}
+.position-hoja:hover{
+    background-position: -10px -174px;
+}
+.position-taza:hover{
+    background-position: -174px -174px;
+}
+.position-mandarina:hover{
+    background-position: -339px -174px;
+}
+.position-toronja:hover{
+    background-position: -504px -174px;
+}
+.position-flores:hover{
+    background-position: -669px -174px;
+}
+.position-agua:hover{
+    background-position: -834px -174px;
+}
+
+/* MEDIAS */
+
+@media screen and (max-width: 991px){
+    .bg-blue-white {
+        background: #00c0cc;
+    }
+    #tarjetas .col-lg-3,
+    #servicios #carouselServicios,
+    #ifra .col-lg-3{
+        margin-bottom: 30px;
+    }
+    #servicios,
+    #ifra .col-lg-8{
+        text-align: center;
+    }
+    #servicios .col-lg-2{
+        margin-bottom: 10px;
+    }
+    #servicios #carouselServicios,
+    #galeria .justify-content-end{
+        margin-top: 30px;
+    }
+    #galeria .justify-content-end{
+        justify-content: center !important;
+    }
+    .bg-img-form{
+        background-image: url(https://contacto.aromma.mx/img/aromma-formulario-.webp);
+        background-size: cover;
+        height: 100px !important;
+    }
+    #review #frases .w-260{
+        width: 100%;
+        flex-direction: column !important;
+    }
+    #review #frases .card-header{
+        padding: 20px 0 0 0 !important;
+    }
+}
+@media screen and (max-width: 767px){
+    #contactos .col-lg-4 {
+        padding: 1rem !important;
+    }
+    hr{
+        transform: rotate(180deg);
+    }
+    footer .bg-blue{
+        padding-top: 12px;
+        padding-bottom: 24px;
+    }
+    footer .h-10{
+        height: 11rem;
+    }
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    #review #frases{
+        justify-content: center;
+    }
+    #review #frases .mb{
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width: 575px){
+    #marketing,
+    #galeria,
+    #review{
+        text-align: center;
+    }
+    #marketing .position-icono2,
+    #galeria .position-icono3,
+    #review .position-icono3,
+    #review ul{
+        margin: 0 auto;
+    }
+    #review #carouselReview .card{
+        flex-direction: column !important;
+    }
+    #review #carouselReview .card-header,
+    #review #carouselReview .card-body{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #review #frases .card{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
